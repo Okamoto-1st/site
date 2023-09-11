@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ケーキ屋さんのイメージサイトです">
+
+    <title>おいしいケーキ屋さん</title>
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+    <body>
+    <header>
+        <div class="header-container">
+            <h1 class="site-title">おいしいケーキ屋さん</h1>
+        
+            <details open>
+                        <summary>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                              </svg>
+                        </summary>
+                        <ul class="header-navmenu">
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </ul>    
+            </details>
+
+    </header>
+
+    <main>
+        <div class="main-visual-container">
+            <img src="image/image-main.jpeg" alt="メイン画像">
+        </div>
+
+        <div id="about" class="about-container">
+            <h2>About</h2>
+            <div class="profile-box">
+                <div class="profile-img">
+                    <img src="image/image-me.jpeg" alt="職人">
+                </div>
+                <div class="profile-text">
+                    <h4>ベルギーの街並み</h4>
+                    <div class="profile-text2">
+                        <div>私たちはベルギーでお菓子作りに出逢いました。そこには美しく可憐でおいしいお菓子がたくさんあります。</div>
+                        <div>お菓子に魅せられた私は修行を重ね、自分のお店を持つようになりました。</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu" class="menu-container">
+                <h2>Menu</h2>
+                <div class="product-box">
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image1.jpeg"></div>
+                        <h4>いちごのパイシュークリーム</h4>
+                        <div>480円</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image2.jpeg"></div>
+                        <h4>ベリーのカップケーキ</h4>
+                        <div>350円</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image3.jpeg"></div>
+                        <h4>ブルーベリーとチョコのケーキ</h4>
+                        <div>500円</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image4.jpeg"></div>
+                        <h4>イチゴのババロアケーキ</h4>
+                        <div>460円</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image5.jpeg"></div>
+                        <h4>イチジククラムケーキ</h4>
+                        <div>500円</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="menu-img"><img src="image/image6.jpeg"></div>
+                        <h4>ティラミスケーキ</h4>
+                        <div>490円</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="information" class="information-container">
+                <h2>Information</h2>
+                <div class="information-box">
+                    <div class="information-item">
+                        <h4>期間限定メニュー登場！</h4>
+                        <h3>イチゴのババロアケーキ</h3>
+                        <div>旬のイチゴをふんだんに使用したババロアをチョコケーキに乗せました</div>
+                        <div>さっぱり甘い春限定ケーキ、ぜひご賞味ください！</div>
+                    </div>
+                    <div class="information-item">
+                        <h4>ホームページ開設</h4>
+                        <div>この度当店のホームページを開設致しました。</div>
+                        <div>新メニューやお知らせを更新していきます。</div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-continer">
+            <p class="copyright">&copy; おいしいケーキ屋さん. All rights reserved.</p>
+    </footer>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
